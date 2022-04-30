@@ -1,0 +1,210 @@
+/* This is what got you to a heading, your pic, good navbar links to your about me and portfolio, a shitty one to contact, and the aside 
+text centely formatted with flex wrap. You can always come back to this
+
+/* This gives the css color and radius info variables that it can find and apply later */
+:root {
+    --outer-space: #33393f;
+}
+    
+
+
+/* Here you flex wrapped the entire body of the site so that it does not lose its appearance on mobile or other screens */
+body {
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+/* Here you created the header padding */
+
+/*header {
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(66, 55, 55);
+    color: rgb(228, 202, 194)
+}
+
+.header {
+    flex-wrap: wrap;
+    color:rgb(228, 202, 194);
+    border-bottom: 10px;
+    border-bottom: 10px;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+    color:rgb(228, 202, 194)
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.links {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("Desert-pic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* This command controls the styling of the aside element */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* The images, text and styling for all three sections in the aside element have the same style
+I condensed the code by simply combining several classes onto the same line, sepperated by a comma */
+.benefit-lead, .benefit-brand, .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* I'm starting over baby!! You have some code to revert back to. Try using some of the new stuff from the last few classes to really
+do it from scratch.  Copy paste hype train is rolling chugga chugga chooo mf*/
+
+
+:root {
+    --outer-space: #33393f;
+    --font-color: whitesmoke;
+
+}
+
+body {
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    background-image: url("Desert-pic.jpg");
+    background-size: cover;
+    
+}
+
+header {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(66, 55, 55);
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+.header section {
+    padding-top: 10px;
+    margin-right: 10px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.links {
+    display:inline-flexbox;
+    margin-left: 10px;
+    color: whitesmoke
+}
+
+.content {
+    width: 75%;
+    display: grid;
+    orientation: center;
+}
