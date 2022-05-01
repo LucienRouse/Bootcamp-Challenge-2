@@ -1,3 +1,5 @@
+/* Someone recommended starting CSS with the universal selector, then a before and after and a border box sizing. 
+I don't exactly understand why but it didn't seem to affect it negatively*/
 *,
 *,::before,
 *::after {
@@ -27,8 +29,17 @@ h1 {
     color: whitesmoke;
 }
 
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    
+}
 
 
+/* This is where I styled the links in the header. My favorite part of this is the transition duration */
 .links {
     display: inline-flex;
     text-decoration: none;
@@ -45,7 +56,7 @@ h1 {
 }
 
 
-
+/* This is how I styled the links while the mouse is over it. */
 .links:hover {
     background-color: aqua;
     color: black;
@@ -54,7 +65,8 @@ h1 {
 
 
 
-
+/* This was how I tried to style all of the buttons in the main section. 
+To help mkake the font more visible, i used the -webkit-text-stroke command that I found on w3 */
 .buttons {
     padding: 5px;
     text-align: center;
@@ -113,7 +125,6 @@ h1 {
 }
 
 .button3 {
-    width: 50%;
     max-width: 100%;
     height: 400px;
     box-shadow:5px 5px 2px 1px rgb(15, 44, 15);
@@ -127,10 +138,15 @@ h1 {
     transform: scale(.95); opacity: .75;  
 }
      
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .buttons div {
-        width: 50%;
-    } 
+        width: 100%;
+} 
+
+.button3 {
+    width: 100%;
+}
+
 } 
 
   footer h2 {
